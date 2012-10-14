@@ -22,6 +22,12 @@
 		0918D05F16292E1F0086AF2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0918D05916292E1F0086AF2F /* Default@2x.png */; };
 		0918D06016292E1F0086AF2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0918D05A16292E1F0086AF2F /* InfoPlist.strings */; };
 		0918D06316292F390086AF2F /* RCSingletonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0918D06216292F390086AF2F /* RCSingletonObject.m */; };
+		0918D0C416293DA50086AF2F /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 0918D0C316293DA50086AF2F /* UIDevice-Hardware.m */; };
+		09C59A731629726900D758D0 /* RCObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C59A6B1629726700D758D0 /* RCObservable.m */; };
+		09C59A741629726900D758D0 /* NSInvocation+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C59A6E1629726900D758D0 /* NSInvocation+Utilities.m */; };
+		09C59A751629726900D758D0 /* NSObject+Invoking.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C59A701629726900D758D0 /* NSObject+Invoking.m */; };
+		09C59A761629726900D758D0 /* RCInvocationBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C59A721629726900D758D0 /* RCInvocationBuilder.m */; };
+		09C59A791629730D00D758D0 /* NSInvocation+blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C59A781629730D00D758D0 /* NSInvocation+blocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,19 @@
 		0918D06116292F390086AF2F /* RCSingletonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSingletonObject.h; sourceTree = "<group>"; };
 		0918D06216292F390086AF2F /* RCSingletonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSingletonObject.m; sourceTree = "<group>"; };
 		0918D065162932A20086AF2F /* GCDSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSingleton.h; sourceTree = "<group>"; };
+		0918D0A2162936DF0086AF2F /* RCMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCMacro.h; sourceTree = "<group>"; };
+		0918D0C216293DA50086AF2F /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		0918D0C316293DA50086AF2F /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
+		09C59A6A1629726600D758D0 /* RCObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCObservable.h; sourceTree = "<group>"; };
+		09C59A6B1629726700D758D0 /* RCObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCObservable.m; sourceTree = "<group>"; };
+		09C59A6D1629726900D758D0 /* NSInvocation+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Utilities.h"; sourceTree = "<group>"; };
+		09C59A6E1629726900D758D0 /* NSInvocation+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Utilities.m"; sourceTree = "<group>"; };
+		09C59A6F1629726900D758D0 /* NSObject+Invoking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Invoking.h"; sourceTree = "<group>"; };
+		09C59A701629726900D758D0 /* NSObject+Invoking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Invoking.m"; sourceTree = "<group>"; };
+		09C59A711629726900D758D0 /* RCInvocationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCInvocationBuilder.h; sourceTree = "<group>"; };
+		09C59A721629726900D758D0 /* RCInvocationBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCInvocationBuilder.m; sourceTree = "<group>"; };
+		09C59A771629730D00D758D0 /* NSInvocation+blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+blocks.h"; sourceTree = "<group>"; };
+		09C59A781629730D00D758D0 /* NSInvocation+blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+blocks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,9 +197,38 @@
 		0918D064162932A20086AF2F /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				0918D0C116293DA50086AF2F /* com.ericasadun.devicehardware */,
 				0918D065162932A20086AF2F /* GCDSingleton.h */,
+				0918D0A2162936DF0086AF2F /* RCMacro.h */,
+				09C59A6A1629726600D758D0 /* RCObservable.h */,
+				09C59A6B1629726700D758D0 /* RCObservable.m */,
+				09C59A771629730D00D758D0 /* NSInvocation+blocks.h */,
+				09C59A781629730D00D758D0 /* NSInvocation+blocks.m */,
+				09C59A6C1629726800D758D0 /* InvocationBuilder */,
 			);
 			path = libs;
+			sourceTree = "<group>";
+		};
+		0918D0C116293DA50086AF2F /* com.ericasadun.devicehardware */ = {
+			isa = PBXGroup;
+			children = (
+				0918D0C216293DA50086AF2F /* UIDevice-Hardware.h */,
+				0918D0C316293DA50086AF2F /* UIDevice-Hardware.m */,
+			);
+			path = com.ericasadun.devicehardware;
+			sourceTree = "<group>";
+		};
+		09C59A6C1629726800D758D0 /* InvocationBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				09C59A6D1629726900D758D0 /* NSInvocation+Utilities.h */,
+				09C59A6E1629726900D758D0 /* NSInvocation+Utilities.m */,
+				09C59A6F1629726900D758D0 /* NSObject+Invoking.h */,
+				09C59A701629726900D758D0 /* NSObject+Invoking.m */,
+				09C59A711629726900D758D0 /* RCInvocationBuilder.h */,
+				09C59A721629726900D758D0 /* RCInvocationBuilder.m */,
+			);
+			path = InvocationBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +343,7 @@
 			files = (
 				0918D02516292DEA0086AF2F /* main.m in Sources */,
 				0918D05C16292E1F0086AF2F /* RCAppDelegate.m in Sources */,
+				0918D0C416293DA50086AF2F /* UIDevice-Hardware.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +353,11 @@
 			files = (
 				0918D04416292DEA0086AF2F /* RamencoderHelperTests.m in Sources */,
 				0918D06316292F390086AF2F /* RCSingletonObject.m in Sources */,
+				09C59A731629726900D758D0 /* RCObservable.m in Sources */,
+				09C59A741629726900D758D0 /* NSInvocation+Utilities.m in Sources */,
+				09C59A751629726900D758D0 /* NSObject+Invoking.m in Sources */,
+				09C59A761629726900D758D0 /* RCInvocationBuilder.m in Sources */,
+				09C59A791629730D00D758D0 /* NSInvocation+blocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RamencoderHelper/RamencoderHelper-Prefix.pch";
 				INFOPLIST_FILE = "RamencoderHelper/RamencoderHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,6 +458,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RamencoderHelper/RamencoderHelper-Prefix.pch";
 				INFOPLIST_FILE = "RamencoderHelper/RamencoderHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

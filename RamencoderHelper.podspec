@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retreived.
   #
-  s.source       = { :git => "http://EXAMPLE/RamencoderHelper.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/caoer/RamencoderHelper.git", :tag => "0.0.1" }
   # s.source       = { :svn => 'http://EXAMPLE/RamencoderHelper/tags/1.0.0' }
   # s.source       = { :hg  => 'http://EXAMPLE/RamencoderHelper', :revision => '1.0.0' }
 
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = 'Classes', 'RamencoderHelper/Classes/libs/**/*.{h,m,a}'
 
   # A list of file patterns which select the header files that should be
   # made available to the application. If the pattern is a directory then the
