@@ -197,6 +197,7 @@
 		0918D064162932A20086AF2F /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				09A0B628162B4A7B0062CF46 /* UIKit+Extension */,
 				0918D0C116293DA50086AF2F /* com.ericasadun.devicehardware */,
 				0918D065162932A20086AF2F /* GCDSingleton.h */,
 				0918D0A2162936DF0086AF2F /* RCMacro.h */,
@@ -216,6 +217,13 @@
 				0918D0C316293DA50086AF2F /* UIDevice-Hardware.m */,
 			);
 			path = com.ericasadun.devicehardware;
+			sourceTree = "<group>";
+		};
+		09A0B628162B4A7B0062CF46 /* UIKit+Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIKit+Extension";
 			sourceTree = "<group>";
 		};
 		09C59A6C1629726800D758D0 /* InvocationBuilder */ = {
