@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #                   * Markdonw format.
   #                   * Don't worry about the indent, we strip it!
   #                  DESC
-  s.homepage     = "http://EXAMPLE/RamencoderHelper"
+  s.homepage     = "https://github.com/nanaimostudio/RamencoderHelper.git"
 
   # Specify the license type. CocoaPods detects automatically the license file if it is named
   # `LICENSE*.*', however if the name is different, specify it.
@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retreived.
   #
-  s.source       = { :git => "https://github.com/caoer/RamencoderHelper.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/nanaimostudio/RamencoderHelper.git", :tag => "0.0.1" }
   # s.source       = { :svn => 'http://EXAMPLE/RamencoderHelper/tags/1.0.0' }
   # s.source       = { :hg  => 'http://EXAMPLE/RamencoderHelper', :revision => '1.0.0' }
 
