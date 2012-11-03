@@ -9,11 +9,11 @@
 @implementation UIViewController(Nib)
 
 + (id)controllerWithNib:(NSString *)nibName {
-	return [[[self class] alloc] initWithXib:nibName];
+	return [[[self class] alloc] initWithNib:nibName];
 }
 
 + (id)controllerWithDefaultNib {
-	return [[[self class] alloc] initWithDefaulXib];
+	return [[[self class] alloc] initWithDefaulNib];
 }
 
 - (id)initWithNib:(NSString *)nibName {

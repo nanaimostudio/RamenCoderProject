@@ -11,7 +11,7 @@
 + (id)controllerWithNib:(NSString *)nibName;
 + (id)controllerWithDefaultNib;
 
-- (id)initWithXib:(NSString *)nibName;
+- (id)initWithNib:(NSString *)nibName;
 - (id)initWithDefaulNib;
 
 @end
