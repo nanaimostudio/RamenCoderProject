@@ -69,6 +69,8 @@
 		0918D0C316293DA50086AF2F /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
 		098037041644C93A009553E7 /* UIViewController+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Nib.h"; sourceTree = "<group>"; };
 		098037051644C93A009553E7 /* UIViewController+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Nib.m"; sourceTree = "<group>"; };
+		0980370E1644CA69009553E7 /* RCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCHelper.h; sourceTree = "<group>"; };
+		0980370F1644CADA009553E7 /* RCUIKit+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCUIKit+Extensions.h"; sourceTree = "<group>"; };
 		09C59A6A1629726600D758D0 /* RCObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCObservable.h; sourceTree = "<group>"; };
 		09C59A6B1629726700D758D0 /* RCObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCObservable.m; sourceTree = "<group>"; };
 		09C59A6D1629726900D758D0 /* NSInvocation+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Utilities.h"; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				09A0B628162B4A7B0062CF46 /* UIKit+Extension */,
 				0918D0C116293DA50086AF2F /* com.ericasadun.devicehardware */,
 				0918D065162932A20086AF2F /* GCDSingleton.h */,
+				0980370E1644CA69009553E7 /* RCHelper.h */,
 				0918D0A2162936DF0086AF2F /* RCMacro.h */,
 				09C59A6A1629726600D758D0 /* RCObservable.h */,
 				09C59A6B1629726700D758D0 /* RCObservable.m */,
@@ -225,6 +228,7 @@
 		09A0B628162B4A7B0062CF46 /* UIKit+Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0980370F1644CADA009553E7 /* RCUIKit+Extensions.h */,
 				098037041644C93A009553E7 /* UIViewController+Nib.h */,
 				098037051644C93A009553E7 /* UIViewController+Nib.m */,
 			);
